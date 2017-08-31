@@ -16,3 +16,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
+
+body{
+  background: image_url('shattered.png');
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+}
+.navbar{
+  background: image_url('footer_lodyas.png');
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.navbar-brand{
+  color: #C2ABF4;
+}
