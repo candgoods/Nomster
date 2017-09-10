@@ -20,7 +20,11 @@
       </blockquote>
     </div>
   <%end%>
-
+    <div class = 'img-fluid text-center'>
+      <%if place.photos.present?%>
+        <%= image_tag place.photos.last.picture %>
+      <%end%>
+    </div>
   </div>
 
 <% end %>
